@@ -135,3 +135,57 @@
 | H4 | 月額300〜500円を払う人が利用者の2〜5%いる | 公開後の課金率 |
 | H5 | 日本語でこの流れを提供する競合は無い | アプリストア・Webの追加調査 |
 | H6 | 匿名の集計データにブランドが価値を感じる | 将来のヒアリング（MVP対象外） |
+
+---
+
+## 11. 追加調査：「すでにお金が払われている領域」（2026-11-02 追記）
+
+ユーザーの指示（売れないものは考えない）を受け、**同じ課題にすでに支払いが発生しているか**を中心に追加調査した。
+
+### 11-1. 薬機法・景表法チェック（支払実績：強い）
+- 有料ツールが多数：トランスコープ Basic 月額11,000円／Pro 38,500円、Cosme-Design.jp 月額30,000円（税別、成分表示チェックを含む）、Medrock 月額3万円〜、ADJUDGE 月額55,000円（税込）、LOGRIZa 月額110,000円＋従量 [事実：比較記事・非公式。料金は公式で要確認]
+- 無料ツールもある：機械良文（1回200文字まで）、セルフ薬機法チェック（1,500文字まで）
+- 比較記事では17社以上が紹介されており、**競争は激しい**
+- 景表法は2023年の改正で課徴金・直罰が強化。SNS広告・インフルエンサー広告での摘発が増えているとの解説あり [非公式：法律事務所・解説記事]
+
+### 11-2. サロン向け口コミ返信AI（支払実績：あるが価格競争）
+- ReviewAnswer 月額3,980円＋返信生成1,000円、AI Review 月額1万円、CREVIA 月額3,300円、MapBoost 2,980円〜、クチコミAI 980円〜 [事実：各社サイト・非公式比較]
+- 美容所数は274,070店（令和5年度、厚生労働省 衛生行政報告例）、個人経営が中心
+
+### 11-3. AI検索での露出（LLMO/AIO/GEO）（支払実績：あり・急成長）
+- 国内ツールは20〜40種類。Brand UP 7,980円、GEO AIO TRACKER 9,800円〜、LLM Insight 24,800円〜、DolphinX 3万円〜、ミエルカGEO 49,800円（税抜） [非公式：比較記事]
+- 単発診断：Owned 5万円（税別、先着30社） [企業リリース]
+- 海外：Otterly 約29ドル〜、Peec AI 約89〜95ドル〜、Profound 99〜499ドル〜 [非公式：比較記事]
+- 約70%の企業が、生成AIで自社がどう表示されるかを確認したことがない（火燵の調査） [企業調査]
+- **化粧品ブランドのAI回答での平均露出率は29.4%**（Z Creative Partners、2026-06-24。調査方法の詳細は未確認） [企業調査]
+- Orosy「AI棚どり」：ブランド名からChatGPTでの言及・推奨を評価。中小メーカー・D2Cが対象 [企業リリース] → **直接の競合**
+- 美容に特化し、改善案を薬機法に照らして出す国内ツールは、調べた範囲では見当たらない [推測]
+
+### 11-4. 美容 × 生成AI経由の購買（海外）
+- 生成AIから小売サイトへの流入が2025年に304%増。美容・パーソナルケアはAI経由の商品発見で最も目立つ分野（Euromonitor、Business Wire 2026-03-18） [公式リリース]
+- eMarketer「AI Visibility Index: Personal Care & Beauty」：2026年Q1にChatGPTの回答5,200件超を分析。顔用スキンケアの質問の81%でLa Roche-Posayが推薦された [業界メディア]
+- 5W PR：スキンケアのAI引用の約22%を上位4ブランドが占める [企業調査]
+
+### 11-5. API原価
+- Gemini 3：Google検索グラウンディングは月5,000クエリまで無料、超過分は1,000クエリあたり14ドル（Google Cloud 公式価格ページ） [公式]
+- OpenAI：Web検索ツールは1,000回あたり約10ドル [非公式・二次情報。公式で要確認]
+
+### 追加出典（取得日 2026-11-02）
+| 出典 | URL | 種別 |
+|---|---|---|
+| 薬機法チェックツール比較（Medrock） | https://medrock.co.jp/navi/medical-content/yakkiho-checktool/ | 非公式（比較記事） |
+| 薬機法AIチェックサービス17選 | https://biz.you-first.co.jp/yakkihou-ai-check-services/ | 非公式（比較記事） |
+| ReviewAnswer | https://www.exceed-system.co.jp/reviewanswer/ | 公式（サービス） |
+| AI Review | https://www.adapter.salon/ai-review | 公式（サービス） |
+| 厚生労働省 生活衛生関係 | https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/kenkou/seikatsu-eisei/seikatsu-eisei03/06.html | 公式 |
+| AIOツール21選比較（SEED） | https://www.seedinc.jp/column/aio/aio-service-tool/ | 非公式（比較記事） |
+| LLMOツール比較（メディアリーチ） | https://mediareach.co.jp/blog/llmo-tool | 非公式（比較記事） |
+| Owned AIO診断 | https://aeo.washinmura.jp/ai/owned%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE/en/news/2026-05-21-owned-inc-launches-limited-time-aio-llmo | 企業リリース転載 |
+| Orosy AI棚どり | https://aeo.washinmura.jp/ai/corporate-orosy-com/en/news/2026-04-02-are-you-ai-shelf-ready-launching-ai-tana?lang=en | 企業リリース転載 |
+| 火燵 生成AI検索の確認状況調査 | https://aeo.washinmura.jp/ai/%E6%A0%AA%E5%BC%8F%E4%BC%9A%E7%A4%BE%E7%81%AB%E7%87%B5/en/news/2026-05-12-2026-survey-approximately-70-of-companie | 企業リリース転載 |
+| Euromonitor（Business Wire 2026-03-18） | https://www.businesswire.com/news/home/20260318561945/en/ | 公式リリース |
+| eMarketer AI Visibility Index Beauty | https://www.emarketer.com/content/ai-visibility-index-personal-care-beauty-q1-2026-leaderboard | 業界メディア |
+| 5W PR Beauty AI Visibility Index | https://www.5wpr.com/ai-visibility-index/beauty-ai-visibility-index-2026/beauty-ai-visibility-index-2026.pdf | 企業調査 |
+| AI検索ツール料金比較 | https://ecorpit.com/agent-web-search-api-cost-comparison-2026/ | 非公式 |
+| Google Cloud 生成AI料金 | https://cloud.google.com/gemini-enterprise-agent-platform/generative-ai/pricing?hl=en | 公式 |
+| エステ広告規制（モノリス法律事務所） | https://monolith.law/corporate/esthetic-salons-pharma-ad-rules | 非公式（法律事務所） |

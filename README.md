@@ -1,8 +1,8 @@
-# SkinTrace（仮称）
+# Beauty AI Shelf（仮称）
 
-「合わなかった化粧品」の記録から共通して含まれる成分の候補を見つけ、次に買う化粧品を購入前にチェックできるWebアプリ。
+ChatGPTやGeminiが自社の化粧品を薦めているかを、美容に特化した質問で定点観測し、競合との差と、薬機法に配慮した改善案を出す化粧品ブランド向けWebサービス。
 
 ## ドキュメント
 - [市場調査](docs/research/market-research.md)
-- [アプリ案の評価](docs/product/idea-evaluation.md)
+- [アプリ案の評価（改訂版）](docs/product/idea-evaluation.md)
 - [プロダクトコンセプト（承認待ち）](docs/product/product-concept.md)
